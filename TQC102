@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{ 
+     float a, b,total ;//double -> float  a, b
+     printf("請輸入兩個浮點數:");
+     scanf("%f %f", &a, &b);//scanf("%d -> %f  %d-> %f", a->&a, b->&b)
+     total = a+b;
+     printf("total=%f", total);
+     return 0;
+}
