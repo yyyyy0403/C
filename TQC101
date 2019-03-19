@@ -1,0 +1,9 @@
+#include <stdio.h> //include -> #include <stdio.h>; -> <stdio.h> 
+#include <stdlib.h>
+
+int main(void)//{}->()
+{
+     printf("Learning C now!\n");//print->printf
+     printf("You will enjoy it");//print->printf and you will enjoy it->You will enjoy it
+     return 0;
+}
