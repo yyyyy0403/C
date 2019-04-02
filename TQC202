@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+ int score, adjust;
+ printf("請輸入分數:");
+ scanf("%d", &score);//scanf("%d", score) -> scanf("%d", &score)在scanf時，後面的參需補上"&"符號
+ if (score >= 60)//if (score >= 60); - > if (score >= 60)if條件式後面不可以有分號
+  adjust = score+10;
+ else
+  adjust = score+5;
+ printf("調整後的分數為%d", adjust);
+ system("PAUSE");
+ return 0;
+}
